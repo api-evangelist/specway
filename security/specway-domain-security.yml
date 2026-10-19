@@ -12,9 +12,9 @@ domains:
 - domain: specway.com
   dnssec: false
   caa:
+  - 0 issue "sectigo.com"
   - 0 issue "letsencrypt.org"
   - 0 issue "pki.goog"
-  - 0 issue "sectigo.com"
   spf: true
   dmarc: true
   dmarc_policy: quarantine

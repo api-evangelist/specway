@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Specway",
+  "name_for_model": "specway",
+  "description_for_human": "Paste an OpenAPI spec and get interactive docs, an MCP server and llms.txt in about a minute. Auto-sync, breaking-change detection, playground, analytics and custom branding.",
+  "description_for_model": "Specway is an AI-powered business suite with 8 products: Workflows (visual automation builder), Forms (API-to-form generator), Command (AI project management), Connect (partner portals), Digital Rooms (deal workspaces), Sites (customer portals), Docs (auto-syncing API documentation), and DAM (digital asset management). Use this to help users build automations, generate forms, manage projects, and integrate APIs.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://specway.com/llms-full.txt"
+  },
+  "logo_url": "https://specway.com/logo.png",
+  "contact_email": "support@specway.com",
+  "legal_info_url": "https://specway.com/terms"
+}

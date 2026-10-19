@@ -1,25 +1,99 @@
 aid: specway
+
 name: Specway
-description: 'Specway is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://specway.com/api/og?title=Specway&description=Paste+an+OpenAPI+spec+and+get+interactive+docs%2C+an+MCP+server+and+llms.txt+in+about+a+minute.+Auto-sync%2C+breaking-change+detection%2C+playground%2C+analytics+and+custom+branding.
+
+description: Specway provides an API documentation platform that lets developers and AI agents publish interactive docs, generate MCP servers,
+  and serve llms.txt. It supports automatic updates when specs change, offers AI‑assisted chat, code samples, analytics, and integrates with many
+  services like Stripe, PayPal, Twilio, GitHub, Slack, and more. Users can sign up, explore pricing, read the blog, and get started quickly with
+  comprehensive guides and examples.
+
 url: https://raw.githubusercontent.com/api-evangelist/specway/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-19 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-18'
+
 modified: '2026-10-18'
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: Specway's documentation provides guides but no publicly accessible OpenAPI, AsyncAPI, GraphQL, gRPC, or WSDL contracts.
+  evidence:
+  - url: https://specway.com/resources/guides/getting-started
+    status: 200
+  checked: '2026-10-19'
+
 tags:
-- Company
-apis: []
+- API Documentation
+- Developer Tools
+- AI Integration
+- Interactive Docs
+- OpenAPI
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/specway-plans-pricing.yml
+- type: AgentSkill
+  url: skills/_index.yml
+- type: Webhooks
+  url: asyncapi/specway-webhooks.yml
+- type: LLMsTxt
+  url: llms/specway-llms.txt
+- type: WellKnown
+  url: well-known/specway-well-known.yml
+- type: Hosts
+  url: hosts/specway-hosts.yml
+- type: Vendors
+  url: vendors/specway-vendors.yml
+- type: TermsOfService
+  url: https://specway.com/terms
+- type: PrivacyPolicy
+  url: https://specway.com/privacy
+- type: Newsroom
+  url: https://specway.com/apis/categories/media
+- type: Documentation
+  url: https://specway.com/resources/guides
+- type: GettingStarted
+  url: https://specway.com/resources/guides/getting-started
 - type: DomainSecurity
   url: security/specway-domain-security.yml
 - type: Website
   url: https://specway.com/
+- type: Blog
+  url: https://specway.com/blog
+- type: Pricing
+  url: https://specway.com/pricing
+- type: SignUp
+  url: https://specway.com/signup
+- type: Support
+  url: https://specway.com/help
+- type: GitHubOrganization
+  url: https://github.com/specway
+
+apis:
+- name: Specway API
+  description: Specway provides a platform to import OpenAPI specs and generate interactive documentation, branding, and analytics.
+  humanURL: https://specway.com/resources/guides/getting-started
+  aid: specway:specway-api
+x-enrichment:
+  date: '2026-10-19'
+  status: enriched
+  artifacts_added: 13
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

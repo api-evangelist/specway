@@ -1,0 +1,16 @@
+generated: '2026-10-19'
+method: none
+source:
+- https://zapier.com/apps/specway/integrations
+- https://n8n.io/integrations/specway/
+- https://composio.dev/toolkits/specway
+- https://monid.ai/tools/specway
+checked:
+- https://composio.dev/toolkits/specway
+- https://monid.ai/tools/specway
+- https://n8n.io/integrations/specway/
+- https://zapier.com/apps/specway/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

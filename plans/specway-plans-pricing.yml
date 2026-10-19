@@ -1,0 +1,71 @@
+generated: '2026-10-19'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://specway.com/pricing
+sources:
+- https://specway.com/pricing
+name: Specway pricing
+audience: developer-api
+pricing_basis: per-seat
+plans:
+- name: Free
+  price_text: $0 forever
+  price: 0
+  features:
+  - 1 API
+  - 1,000 monthly page views
+  - Specway subdomain
+  - Code examples & docs
+  - Auto-sync from OpenAPI spec
+  - Breaking-change detection
+  - Community support
+  - AI 50 AI credits/month
+- name: Solo
+  price_text: $ 15 /month
+  price: 15
+  features:
+  - 3 APIs
+  - Unlimited monthly page views
+  - Custom domain
+  - Full API playground (Try It)
+  - Widgets & AI chatbot
+  - Auto-sync from OpenAPI spec
+  - Breaking-change detection
+  - Email support
+  - AI 200 AI credits/month
+  - Team invites
+  - Full analytics dashboard
+  - Priority support
+- name: Launch
+  price_text: $ 50 /month
+  price: 50
+  features:
+  - Unlimited APIs
+  - Unlimited monthly page views
+  - Custom domains
+  - Remove Specway branding
+  - Full API playground (Try It)
+  - Widgets & AI chatbot
+  - Version history & revert
+  - Auto-sync from OpenAPI spec
+  - Breaking-change detection
+  - Full analytics dashboard
+  - Priority support
+  - AI 500 AI credits/month
+- name: Scale
+  price_text: Talk to Sales
+  features:
+  - Unlimited APIs
+  - Unlimited page views
+  - Custom domains
+  - Remove all branding
+  - Full API playground (Try It)
+  - Widgets & AI chatbot
+  - Version history & revert
+  - Auto-sync from OpenAPI spec
+  - Breaking-change detection
+  - Advanced analytics & error tracking
+  - SSO/SAML authentication
+  - SLA guarantee
+  - Dedicated support
+docs: https://specway.com/pricing

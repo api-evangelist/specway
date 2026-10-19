@@ -1,0 +1,38 @@
+generated: '2026-10-19'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://specway.com/resources/guides/webhook-patterns
+sources:
+- https://specway.com/resources/guides/webhook-patterns
+description: Specway publishes the following webhook event types and uses HMAC‑SHA256 signatures sent in the `x-signature` header for verification;
+  duplicate deliveries are idempotent‑handled via event IDs and retries use exponential backoff (up to 5 attempts with delays of 1s, 2s, 4s, 8s,
+  16s).
+events:
+- event: payment.succeeded
+  description: Emitted when a payment is successfully completed.
+- event: payment.failed
+  description: Emitted when a payment attempt fails.
+- event: refund.created
+  description: Emitted when a refund is created.
+- event: push
+  description: Emitted when code is pushed to a repository.
+- event: pull_request
+  description: Emitted when a pull request is opened, updated, or closed.
+- event: deployment
+  description: Emitted when a deployment occurs.
+- event: contact.created
+  description: Emitted when a new contact is created in the CRM.
+- event: deal.updated
+  description: Emitted when a deal record is updated.
+- event: activity.logged
+  description: Emitted when an activity is logged in the CRM.
+- event: order.placed
+  description: Emitted when an order is placed.
+- event: order.shipped
+  description: Emitted when an order is shipped.
+- event: inventory.low
+  description: Emitted when inventory falls below a low‑stock threshold.
+delivery:
+  signature: HMAC‑SHA256
+  retries: Exponential backoff with up to 5 attempts (delays 1s, 2s, 4s, 8s, 16s) and jitter.
+docs: https://specway.com/resources/guides/webhook-patterns

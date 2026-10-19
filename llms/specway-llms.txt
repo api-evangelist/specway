@@ -1,0 +1,127 @@
+# Specway
+
+> Paste an OpenAPI spec and get interactive docs, an MCP server and llms.txt in about a minute. Auto-sync, breaking-change detection, playground, analytics and custom branding.
+
+Specway is an API documentation platform — the managed alternative to ReadMe, Mintlify, Scalar, and Swagger UI. Import your OpenAPI spec and publish beautiful, interactive docs that auto-sync from your spec, generate code samples in every language, ship on your own branded domain, and catch breaking changes before your customers do. Teams who sell their API can also monetize it with credit-based billing.
+
+## Capabilities
+
+- [Interactive API Docs](https://specway.com/features/auto-sync): Import your OpenAPI spec and publish beautiful, interactive documentation that auto-syncs on every change. Never ships stale.
+- [Interactive Playground](https://specway.com/features/interactive-playground): A built-in, in-browser playground so developers call your live API straight from the docs — auth handled, requests pre-filled from the spec.
+- [Breaking-Change Detection](https://specway.com/features/breaking-change-detection): Every spec import is diffed against the previous version. Removed operations and narrowed responses are flagged before your customers hit them.
+- [AI Docs & Chatbot](https://specway.com/features/ai-generated-docs): AI drafts endpoint descriptions, guides, and code samples, and answers visitor questions grounded in your docs with citations.
+- [Custom-Branded Portals](https://specway.com/features/custom-branding): Ship docs on your own domain (docs.yourcompany.com) with your logo, fonts, and colors. Looks like you built it; we operate it.
+- [Documentation Analytics](https://specway.com/features/analytics): See which operations get read, where developers drop off, and what they search for — turning docs into a feedback loop.
+- [API Monetization](https://specway.com/solutions/api-monetization): Secondary, docs-adjacent capability: meter, gate, and bill access to your documented API with credit-based usage.
+
+## Features
+
+- [https://specway.com/features/auto-sync](https://specway.com/features/auto-sync): API docs that auto-sync from your OpenAPI spec
+- [https://specway.com/features/ai-chatbot](https://specway.com/features/ai-chatbot): AI chatbot trained on your API documentation
+- [https://specway.com/features/ai-generated-docs](https://specway.com/features/ai-generated-docs): AI-generated documentation from your spec
+- [https://specway.com/features/analytics](https://specway.com/features/analytics): API documentation analytics — what users actually read
+- [https://specway.com/features/breaking-change-detection](https://specway.com/features/breaking-change-detection): Detect breaking changes between API versions
+- [https://specway.com/features/code-samples](https://specway.com/features/code-samples): Auto-generated code samples in TypeScript, Python, Go
+- [https://specway.com/features/custom-branding](https://specway.com/features/custom-branding): White-label API docs with your brand
+- [https://specway.com/features/interactive-playground](https://specway.com/features/interactive-playground): In-browser API playground with live requests
+
+## Compare with alternatives
+
+- [https://specway.com/compare/mintlify](https://specway.com/compare/mintlify): Specway vs Mintlify: API documentation platforms compared
+- [https://specway.com/compare/postman](https://specway.com/compare/postman): Specway vs Postman: API docs vs API client tooling
+- [https://specway.com/compare/rapidapi](https://specway.com/compare/rapidapi): Specway vs RapidAPI: docs platform vs API marketplace
+- [https://specway.com/compare/readme](https://specway.com/compare/readme): Specway vs ReadMe: API documentation feature comparison
+- [https://specway.com/compare/redocly](https://specway.com/compare/redocly): Specway vs Redocly: OpenAPI doc generation compared
+- [https://specway.com/compare/scalar](https://specway.com/compare/scalar): Specway vs Scalar: API reference platforms
+- [https://specway.com/compare/stoplight](https://specway.com/compare/stoplight): Specway vs Stoplight: API design and docs platforms
+- [https://specway.com/compare/swagger-ui](https://specway.com/compare/swagger-ui): Specway vs Swagger UI: from open-source to managed docs
+
+## Solutions
+
+- [https://specway.com/solutions/api-documentation-drift](https://specway.com/solutions/api-documentation-drift): Stop API documentation drift — keep docs in sync with reality
+- [https://specway.com/solutions/api-monetization](https://specway.com/solutions/api-monetization): API monetization — turn your API into a product
+- [https://specway.com/solutions/api-portal](https://specway.com/solutions/api-portal): Launch an API portal — branded, searchable, self-service
+- [https://specway.com/solutions/api-support-reduction](https://specway.com/solutions/api-support-reduction): Cut API support tickets with better docs
+- [https://specway.com/solutions/breaking-change-detection](https://specway.com/solutions/breaking-change-detection): Catch breaking changes before customers do
+
+## Blog
+
+- [https://specway.com/blog/ai-generated-api-documentation](https://specway.com/blog/ai-generated-api-documentation): AI-generated API documentation: what works, what doesn't
+- [https://specway.com/blog/best-api-documentation-tools](https://specway.com/blog/best-api-documentation-tools): Best API documentation tools — honest comparison
+- [https://specway.com/blog/openapi-validation-errors](https://specway.com/blog/openapi-validation-errors): Common OpenAPI validation errors and how to fix them
+
+## Guides
+
+- [https://specway.com/resources/guides/api-design](https://specway.com/resources/guides/api-design): API design guide — REST principles, naming, versioning
+- [https://specway.com/resources/guides/api-documentation](https://specway.com/resources/guides/api-documentation): API documentation: what to include and why
+- [https://specway.com/resources/guides/code-export](https://specway.com/resources/guides/code-export): Exporting API client code from OpenAPI specs
+- [https://specway.com/resources/guides/getting-started](https://specway.com/resources/guides/getting-started): Specway getting started — from spec to live docs
+- [https://specway.com/resources/guides/openapi-import](https://specway.com/resources/guides/openapi-import): Importing your OpenAPI spec into Specway
+- [https://specway.com/resources/guides/rest-vs-soap](https://specway.com/resources/guides/rest-vs-soap): REST vs SOAP: which to pick in 2026
+- [https://specway.com/resources/guides/webhook-patterns](https://specway.com/resources/guides/webhook-patterns): Webhook patterns: retries, signing, idempotency
+- [https://specway.com/resources/guides/yaml-reference](https://specway.com/resources/guides/yaml-reference): YAML reference for OpenAPI specs
+
+## What you get inside Specway (paid documentation capabilities)
+
+- **Auto-sync API docs from your OpenAPI spec** — Connect a Git repo or URL — every push regenerates the docs. The free /tools/openapi-viewer is a one-shot version; in-app, you get continuous sync, version history, and rollback.
+- **AI chatbot trained on your documentation** — Visitors ask natural-language questions and get answers grounded in your docs with citation links. Reduces support load and gives users an instant answer for the long tail.
+- **Code samples in 30+ languages, auto-generated** — Every operation gets working examples in TypeScript, JavaScript, Python, Ruby, PHP, Go, Rust, Java, Kotlin, Swift, C#, cURL, and more. The free /tools/curl-to-code does 5 langs; in-app does 30+ kept in sync with every spec change.
+- **In-browser API playground** — Visitors can call your live API from the docs page — auth handled, request shapes filled in from the spec, response rendered with syntax highlighting. The fastest path from "interested" to "first integration."
+- **Branded custom-domain portals** — docs.yourcompany.com instead of yourcompany.specway.com. Your fonts, logo, colors. Looks like you built it; we operate it.
+- **Breaking-change detection across versions** — Every spec import is automatically diffed against the previous version. Removed operations, narrowed responses, required-parameter changes flagged in the changelog before customers hit them. The free /tools/openapi-diff is a one-shot; in-app gates every release.
+- **Automatic spec validation on every push** — Bad specs never ship docs. The free /tools/openapi-validator and /tools/openapi-linter let you check manually; in-app, every Git push runs both and fails the build if anything regresses.
+- **Search that actually finds things** — Algolia-quality full-text search across operations, schemas, and prose. Visitors find what they need without scrolling.
+- **Documentation analytics** — See which operations get read, where developers drop off, what they search for. Turns docs from a write-once artifact into a feedback loop.
+- **AI-assisted spec authoring** — Describe an endpoint in plain English; Specway drafts the spec entry. Iterate and validate without learning OpenAPI syntax cold.
+- **API monetization (secondary)** — For teams who sell access to their API: meter, gate, and bill documented endpoints with credit-based usage — turn the API you already documented into a product.
+
+**Two ways to start, both free:**
+- [Free forever](https://specway.com/signup) — 1 API, 1k monthly page views, 50 AI credits/mo. No card required. Stays free indefinitely.
+- [14-day Launch trial](https://specway.com/signup?plan=launch&trial=1) — full access to Launch ($50/mo) for 14 days. No card charged during trial. Cancel anytime; no auto-conversion if you don't add a card.
+
+## Free Developer Tools
+
+These standalone browser tools are open to everyone — no signup. They're the
+one-shot utility versions of capabilities that ship continuously inside Specway
+(see "What you get inside Specway" above for the integrated, recurring versions).
+
+- [https://specway.com/tools/json-formatter](https://specway.com/tools/json-formatter): JSON formatter — pretty-print or minify in your browser
+- [https://specway.com/tools/json-validator](https://specway.com/tools/json-validator): JSON validator — line/column error pointer + stats
+- [https://specway.com/tools/jwt-decoder](https://specway.com/tools/jwt-decoder): JWT decoder — header, payload, expiry detection
+- [https://specway.com/tools/regex-tester](https://specway.com/tools/regex-tester): Regex tester — live match highlighting + capture groups
+- [https://specway.com/tools/yaml-json-converter](https://specway.com/tools/yaml-json-converter): YAML ↔ JSON converter — bidirectional, js-yaml powered
+- [https://specway.com/tools/json-schema-validator](https://specway.com/tools/json-schema-validator): JSON Schema validator — Ajv with format support
+- [https://specway.com/tools/openapi-validator](https://specway.com/tools/openapi-validator): OpenAPI validator — swagger-parser based, OpenAPI 2/3
+- [https://specway.com/tools/openapi-viewer](https://specway.com/tools/openapi-viewer): OpenAPI viewer — paste a spec, browse the operation list
+- [https://specway.com/tools/openapi-linter](https://specway.com/tools/openapi-linter): OpenAPI linter — Spectral-style documentation-quality rules
+- [https://specway.com/tools/curl-to-code](https://specway.com/tools/curl-to-code): cURL → Code — convert to JS fetch, Python, Go, Axios
+- [https://specway.com/tools/openapi-diff](https://specway.com/tools/openapi-diff): OpenAPI diff — surface added, removed, changed operations
+- [https://specway.com/tools/openapi-to-typescript](https://specway.com/tools/openapi-to-typescript): OpenAPI → TypeScript — generate interfaces from schemas
+- [https://specway.com/tools/openapi-to-postman](https://specway.com/tools/openapi-to-postman): OpenAPI → Postman — Postman v2.1 collection JSON
+- [https://specway.com/tools/openapi-2-to-3](https://specway.com/tools/openapi-2-to-3): Swagger 2 → OpenAPI 3 — full migration converter
+- [https://specway.com/tools/har-to-openapi](https://specway.com/tools/har-to-openapi): HAR → OpenAPI — bootstrap a spec from browser network capture
+
+## Reference
+
+- [Glossary](https://specway.com/resources/glossary): API and OpenAPI terminology defined
+- [Tools index](https://specway.com/tools): All free developer tools
+- [APIs Catalog](https://specway.com/apis): Browse public API specs and their documentation
+
+## Getting Started
+
+- [Pricing](https://specway.com/pricing): Permanent free tier + 14-day Launch trial. Paid tiers from $50/mo.
+- [Sign Up](https://specway.com/signup): Create a free account — no credit card required.
+- [Start Launch trial](https://specway.com/signup?plan=launch&trial=1): 14 days of unlimited APIs + custom domain + AI chatbot, no card charged.
+- [Demo](https://specway.com/demo): Watch a 3-minute product tour.
+- [Compare with alternatives](https://specway.com/compare): Honest comparisons with Mintlify, ReadMe, Postman, Stoplight, Scalar, Redocly, Swagger UI, RapidAPI.
+
+## Documentation Reference
+
+For full product documentation, see: https://specway.com/llms-full.txt
+
+## Company
+
+- Website: https://specway.com
+- Support: support@specway.com
+- About: https://specway.com/about
+- Contact: https://specway.com/contact
