@@ -92,7 +92,7 @@ hosts:
   control:
     path: /.well-known/apis-io-negative-control-7f3ab91c.json
     status: 200
-    bytes: 69096
+    bytes: 69343
   documents:
   - path: /.well-known/security.txt
     status: 200
@@ -141,7 +141,7 @@ hosts:
   control:
     path: /.well-known/apis-io-negative-control-7f3ab91c.json
     status: 200
-    bytes: 69672
+    bytes: 69382
   documents:
   - path: /.well-known/security.txt
     status: 200
@@ -190,7 +190,7 @@ hosts:
   control:
     path: /.well-known/apis-io-negative-control-7f3ab91c.json
     status: 200
-    bytes: 69871
+    bytes: 69624
   documents:
   - path: /.well-known/security.txt
     status: 200
@@ -288,7 +288,7 @@ hosts:
   control:
     path: /.well-known/apis-io-negative-control-7f3ab91c.json
     status: 200
-    bytes: 69525
+    bytes: 69568
   documents:
   - path: /.well-known/security.txt
     status: 200
@@ -484,7 +484,7 @@ hosts:
   control:
     path: /.well-known/apis-io-negative-control-7f3ab91c.json
     status: 200
-    bytes: 68047
+    bytes: 68090
   documents:
   - path: /.well-known/security.txt
     status: 200

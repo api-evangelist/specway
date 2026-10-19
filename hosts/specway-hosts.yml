@@ -156,7 +156,13 @@ hosts:
   - docs-index
   - contract-discovery
   - well-known
+  - vendor-detect
   types:
+  - TermsOfService
+  - PrivacyPolicy
+  - Newsroom
+  - Documentation
+  - GettingStarted
   - Website
   - Blog
   - Pricing
@@ -164,6 +170,8 @@ hosts:
   - Support
   serves:
   - docs
+  - hosting
+  vendor: vercel
   registrable_domain: specway.com
   role: website
   relation: own
